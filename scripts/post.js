@@ -68,7 +68,7 @@ function enableEditableText() {
     //Div element
     var getDiv = document.getElementById('blogBodyId');
     //Create a input element
-    var inputElement = '<textarea class="txtBlog" id="txtEditedBlog" rows="10" cols="140">' +
+    var inputElement = '<textarea class="txtBlog" id="textEditor" rows="10" cols="140">' +
         getBlogContent +
         '</textarea>'
     //Update the Div element
@@ -76,16 +76,12 @@ function enableEditableText() {
 }
 
 function updateEditedBlog() {
-    var editedBlog = document.getElementById('txtEditedBlog');
-    var textEdited = (editedBlog.innerHTML).toString();
-    alert(textEdited)
-
+    var textEdited = document.getElementById('textEditor').value;
     var pElement = '<p id="blogBody">' +
         textEdited +
         '</p>';
     var getDiv = document.getElementById('blogBodyId');
     getDiv.innerHTML = pElement;
-
 }
 
 function addComment() {
