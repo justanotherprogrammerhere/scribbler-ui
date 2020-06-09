@@ -97,7 +97,7 @@ body {
     z-index: 100;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 20%;
     height: 100%;
     overflow: auto;
     background-color: rgb(0,0,0);
@@ -115,6 +115,7 @@ body {
     height: 18%;
     text-align: center;
     color : black;
+    width: 20%;
 }
 
 .trash-buttons-container {
