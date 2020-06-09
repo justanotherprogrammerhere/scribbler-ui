@@ -47,7 +47,7 @@
     height: 40px;
     overflow: visible;
     padding-bottom: 10px;
-    word-wrap: break-word;
+    #word-wrap: break-word;
 
 }
 
@@ -109,8 +109,10 @@ body {
 }
 .trash-modal-content {
     background-color: #fefefe;
+    margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
+    height: 18%;
     text-align: center;
     color : black;
 }
