@@ -22,6 +22,11 @@ function editComment(){
 }
 function incrementCounter(){
   var cntr = document.getElementById('counterLikedBy');
+  document.getElementById('fresh-page').style.display="none";
+  if (document.getElementById('likes-this').style.display === "none") {
+    document.getElementById('likes-this').style.display="block";
+  }
+
   var val = parseInt(cntr.innerText);
   cntr.innerText = val+1;
 
@@ -83,13 +88,13 @@ function updateEditedBlog(){
 
 }
 function addComment(){
-  console.log("Inside add comment");
   var x = document.getElementById("txtCommentCommentPost").addEventListener("onchange", function(){
     document.getElementById("txtCommentCommentPost").innerHTML;
   });
 
   var x = document.getElementById("txtCommentCommentPost").value;
-  
+  document.getElementById("txtCommentCommentPost").value="";
+
   console.log(x);
   var pElement = '<p >'+ x + '</p>';
   var getDiv = document.getElementById('listAllComments');
