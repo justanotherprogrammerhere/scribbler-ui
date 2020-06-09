@@ -1,0 +1,157 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.title-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blue-button{
+  background-color: blue;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 14px;
+  padding-left:14px;
+  color:white;
+  font-family: 'Ubuntu Condensed';
+  font-size: 12.6px;
+}
+
+.title{
+  font-size: 30px;
+  color: blue;
+  margin: 0;
+  font-family: 'Montez', cursive;
+}
+
+.sub-title{
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 10;
+  color: black;
+  margin: 0;
+}
+
+.login-buttons-container{
+  padding: 10px 10px 10px;
+
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0,0,0,0.4);
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  outline: none;
+
+}
+
+.label-text {
+  font-weight: bold;
+  margin: 10px 0;
+
+}
+
+.modal-content{
+  background-color: #FEFEFE;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+.modal-head {
+  display: flex;
+  flex-direction: column;
+}
+
+.close {
+  display: flex;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.modal-title{
+  align-self: left;
+
+}
+hr { margin-top: 2px; margin-bottom: 2px }
+
+.signin-btn {
+  background-color: green;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+
+}
+
+.signup{
+  color: blue;
+  font-weight: bolder;
+  margin-left: 10px;
+  cursor: pointer;
+}
+bottom-banner{
+  text-align: center;
+  align-self: center;
+
+}
+hr{
+  display: block;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  padding: 0px 0px 0px;
+}
+
+input[type=text]{
+  color: #91949d;
+  background-color: #f1f1f1;
+  border: none;
+
+}
+
+
+input[type=password]{
+  color: #91949d;
+  background-color: #f1f1f1;
+  border: none;
+
+}
+
+
+
+textarea{
+  color: #91949d;
+  background-color: #f1f1f1;
+  border: none;
+
+}
