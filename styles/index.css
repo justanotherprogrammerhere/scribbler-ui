@@ -12,7 +12,6 @@ body{
    background-size: 100% cover!important;
    overflow:hidden;
    display: block;
-   height: 100%;
 }
 #main-container-div{
   display: flex;
